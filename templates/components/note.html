@@ -1,0 +1,19 @@
+<form class="card" method="post">
+    <h3 class="card-title" id="title">{title}</h3>
+    <input type="hidden" value="{title}" name="titulo" />
+
+    <div class="card-content">
+      <p id="details">{details}</p>
+      <input type="hidden" value="{details}" name="detalhes" />
+    </div>
+
+    <div>
+        <button class="btn-delete" type="submit" name="delete">
+            <img src="../../icons/delete.png" width="16px" />
+        </button>
+        <button name="update" type="submit" onclick="updateNote(this)" class="btn-delete">
+            <img src="../../icons/update.png" width="18px" />
+        </button>
+    </div>
+
+</form>
